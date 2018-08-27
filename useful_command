@@ -1,0 +1,7 @@
+I save some useful shell command here.
+
+1, Pick specified lines from file:
+   ex 1: sed -n "1p" filename   # Pick first line
+   Pick specified column from file:
+   ex 2: sed -n "1p" filename | awk '{print $1}'   # Pick first column of firt line
+   ex 3: for i in 1 2; do sed -n "${i}p" filename | awk '{print $1}'; done    # Pick first columns of firt 2 lines
