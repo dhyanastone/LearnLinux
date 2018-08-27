@@ -1,4 +1,4 @@
-I save some useful shell command here.
+I save some useful shell commands here.
 
 1, Pick specified lines from file:
    ex 1: sed -n "1p" filename   # Pick first line
